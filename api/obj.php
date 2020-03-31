@@ -15,8 +15,8 @@
 
 	//error_reporting(0);
 
-
-
+	header("Access-Control-Allow-Origin: *");
+	
 	if(isset($_GET) || isset($_POST)){
 
 
