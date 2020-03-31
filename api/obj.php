@@ -4,8 +4,6 @@
 
 	/* Method POST and GET
 	 * Return Json
-	 * @author Luan Alves Script Mundo
-	 * www.scriptmundo.com
 	 */
 
 	/*
@@ -16,7 +14,8 @@
 	//error_reporting(0);
 
 	header("Access-Control-Allow-Origin: *");
-	
+	header('Content-Type: application/json');
+
 	if(isset($_GET) || isset($_POST)){
 
 
